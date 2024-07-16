@@ -1,0 +1,10 @@
+build:
+  version: "2.0"
+
+loans:
+  message: "Welcome to Shamanth Bank loans related QA APIs"
+  contactDetails:
+    name: "Sahana A - QA Lead"
+    email: "demo2@gmail.com"
+  onCallSupport:
+    +123456789

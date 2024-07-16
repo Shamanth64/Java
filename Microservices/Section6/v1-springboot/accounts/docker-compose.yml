@@ -1,0 +1,40 @@
+services:
+  accounts:
+    image: "shamanth6402/accounts:s4"
+    container_name: accounts-ms
+    ports:
+      - "8092:8092"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - shamanth-bank
+
+  loans:
+    image: "shamanth6402/loans:s4"
+    container_name: loans-ms
+    ports:
+      - "8093:8093"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - shamanth-bank
+
+  cards:
+    image: "shamanth6402/cards:s4"
+    container_name: cards-ms
+    ports:
+      - "8094:8094"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - shamanth-bank
+
+networks:
+  shamanth-bank:
+    driver: "bridge"

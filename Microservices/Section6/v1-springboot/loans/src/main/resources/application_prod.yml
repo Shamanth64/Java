@@ -1,0 +1,15 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to Shamanth Bank loans related prod APIs"
+  contactDetails:
+    name: "H2O - Product Owner"
+    email: "demo3@gmail.com"
+  onCallSupport:
+    +123456789
