@@ -1,0 +1,10 @@
+build:
+  version: "1.0"
+
+cards:
+  message: "Welcome to Shamanth Bank cards related prod APIs"
+  contactDetails:
+    name: "H2O - Product Owner"
+    email: "demo3@gmail.com"
+  onCallSupport:
+    +123456789

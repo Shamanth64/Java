@@ -1,0 +1,10 @@
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome to Shamanth Bank cards related local APIs"
+  contactDetails:
+    name: "Shamanth S - Developer"
+    email: "demo1@gmail.com"
+  onCallSupport:
+    +123456789
